@@ -1,0 +1,112 @@
+body {
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+.how-to-win, .instructions {
+    background-color: rgb(185, 222, 210);
+    text-align: center;
+    font-size: large;
+    font-weight: lighter;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.solutions {
+    background-color: rgb(185, 222, 210);
+    height: 400px;
+    text-align: center;
+    font-size: large;
+    font-weight: lighter;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 30px;
+    width: min(100% - 30px, 2000px);
+    margin-inline: auto;
+    height: max-content;
+}
+
+img {
+    border-radius: 14%;
+    height: 300px;
+    width: 300px;
+}
+
+nav {
+    margin-right: 100%;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: lighter;
+}
+
+h2 {
+    color: black;
+    text-align: center;
+    font-size: larger;
+    font-weight: lighter;
+}
+
+h3 {
+    color: black;
+    text-align: center;
+    font-size: large;
+    font-weight: lighter;
+}
+
+.board {
+    border-color: black;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 10px;
+}
+
+.board-hard {
+    border-color: black;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 25px;
+}
+
+.cell, .cell-hard {
+    background-color: rgb(185, 222, 210);
+    text-align: center;
+    font-size: large;
+    font-weight: lighter;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 25%;
+}
+
+.cell:hover, .cell-hard:hover {
+    box-shadow: 0px 0px 0px 1px grey;
+    cursor: default;
+}
+
+
+.empty {
+    background-color: grey;
+    text-align: center;
+    font-size: large;
+    font-weight: lighter;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 25%;
+}
