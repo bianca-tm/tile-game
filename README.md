@@ -4,9 +4,6 @@
 - [How to play](#How-to-play)
 - [Technologies Used](#Technologies-Used)
 - [Known Bugs](#Known-Bugs)
-- [Implementing the game](#Implementing-the-game)
-- [Significant problems & how they were overcame](#Significant-problems-&-how-they-were-overcame)
-- [Game Trailer](#Game-Trailer)
 
 ## How to setup & run game
 1. Open **start.html**
