@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/CSS" href="/style.css">
+    <script src="app-easy.js" type="text/javascript"></script>
+    <title>Eight Puzzle</title>
+</head>
+<nav>
+    <button onclick='location.href = "/start.html"'>Return</button>
+</nav>
+
+<body onload="start()">
+    <h1>Eight Tiles</h1>
+    <section class="how-to-win">
+        <h2>How To Win: </h2>
+        <h3>
+            <p>The numbers must be in numerical order that go across each row.</p>
+            <p>The game is complete when the numbers are in order and the bottom right corner consists of the empty tile.</p>
+        </h3>
+    </section>
+    <table class="board">
+        <tr>
+            <td class="cell" onclick="doClick(this)" id="0">1</td>
+            <td class="cell" onclick="doClick(this)" id="1">2</td>
+            <td class="cell" onclick="doClick(this)" id="2">3</td>
+        </tr>
+        <td class="cell" onclick="doClick(this)" id="3">4</td>
+        <td class="cell" onclick="doClick(this)" id="4">5</td>
+        <td class="cell" onclick="doClick(this)" id="5">6</td>
+        </tr>
+        <td class="cell" onclick="doClick(this)" id="6">7</td>
+        <td class="cell" onclick="doClick(this)" id="7">8</td>
+        <td class="cell" onclick="doClick(this)" id="8"></td>
+        </tr>
+    </table>
+    <p id="moves">Number of moves so far: </p>
+    <div></div>
+    <button onclick="window.location.reload()">Shuffle</button>
+</body>
+
+</html>
