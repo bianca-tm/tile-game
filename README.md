@@ -4,6 +4,8 @@
 - [How to play](#How-to-play)
 - [Technologies Used](#Technologies-Used)
 - [Known Bugs](#Known-Bugs)
+- [WIP | TODOs ](#TODOs)
+
 
 ## How to setup & run game
 1. Open **start.html**
@@ -30,3 +32,7 @@ The number you **hover** over is the number that will be moved to the **empty ti
 
 ## Known Bugs
 No known bugs at this time.
+
+## TODOs
+- work on styling cahnges
+- rework buttons to be custom instead of standard.
